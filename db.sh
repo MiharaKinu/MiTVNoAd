@@ -139,4 +139,20 @@ adb shell pm uninstall --user 0 com.mitv.gallery
 echo "删除-相册-完成！"
 echo
 
+echo "删除-商城-"
+adb shell pm uninstall --user 0 com.xiaomi.mitv.shop
+echo "删除-商城-完成！"
+echo
+
+echo "删除-头条视频-"
+adb shell pm uninstall --user 0 com.duokan.airkan.tvbox
+adb shell pm uninstall --user 0 com.duokan.videodaily
+echo "删除-头条视频-完成！"
+echo
+
+echo "删除-用户手册-"
+adb shell pm uninstall --user 0 com.xiaomi.mitv.handbook
+echo "删除-用户手册-完成！"
+echo
+
 echo "精简成功，请重启电视！"
